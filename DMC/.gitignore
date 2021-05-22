@@ -1,0 +1,34 @@
+src/*.exe
+src/diamondcoin
+src/diamondcoind
+src/test_diamondcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.diamondcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+diamondcoin-qt
+Diamondcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+diamondcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
